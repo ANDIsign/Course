@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 2</title>
+    </head>
+    <body>
+        <h2>Ejercicio 2</h2>
+        <form action="/" method="get">
+            <div>
+                <lable for="name"> Nombre </lable>
+                <input type="text" name="name" id="name" required/>
+            </div>
+            <br>
+            <div>
+                <lable for="Edad"> Edad </lable>
+                <input type="number" name="age" id="age" min="0" max="90" step="5"/>
+            </div>
+            <br>
+            <div>
+                <label for="frase-favorita"> Frase favorita</label>
+                <textarea name="frase-favorita" id="frase-favorita"></textarea>
+            </div>
+            <br>
+            <button type="reset"> reset </button>
+            <button type="submit"> enviar </button>
+    </body>
+</html>
