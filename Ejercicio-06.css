@@ -1,0 +1,21 @@
+.hover{
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color:orangered;
+    padding: 15px;
+    color: orangered;
+}
+
+.hover::before{
+    content: '¡hecho!' !important;
+}
+
+.hover::before{
+    content: 'Pasa por encima';
+}
+
+.hover:hover{
+    background-color: green;
+    color: white;
+}
